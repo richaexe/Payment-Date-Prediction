@@ -1,0 +1,849 @@
+
+
+#hrlogo{
+	height: 49.5px;
+	width: 234.82px;
+	top: 22px;
+    left: 843px;
+    width: 235px;
+    height: 50px;
+	padding-left: 400px;
+	background: transparent  0% 0% no-repeat padding-box;
+opacity: 1;
+     
+}
+
+#grplogo{
+	margin-left: 30px;
+width: 289px;
+height: 52px;
+top: 16px;
+left: 30px;
+width: 289px;
+height: 52px;
+
+}
+
+#inv{
+	margin-left: 47px;
+	top: 100px;
+    left: 30px;
+    width: 141px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.container{
+    margin: 47px 30px 30px 40px;
+    width: 1440px;
+height: 550px;
+    background: #273D49CC 0% 0% no-repeat padding-box;
+    text-align: center;
+opacity: 1;
+position: relative;
+border-radius: 10px;
+
+}
+
+
+
+.btnad{
+      display:inline;
+      justify-content:right;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 155px ;
+      border: 1px solid #97A1A9;
+border-radius: 10px;
+opacity: 1;
+
+  }
+    .add{
+      background-color:#283A46 ;
+    top: 191px;
+    left: 1236px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #97A1A9;
+    color: #97A1A9;
+    border-radius: 10px;
+    opacity: 1;
+    font: normal normal normal 20px/24px Ubuntu;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .edit{
+    background-color:#283A46 ;
+  top: 191px;
+  left: 1236px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #97A1A9;
+  color: #97A1A9;
+  border-radius: 10px;
+  opacity: 1;
+  font: normal normal normal 20px/24px Ubuntu;
+  font-size: 15px;
+}
+
+.delete{
+    background-color:#283A46 ;
+  top: 191px;
+  left: 1236px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #97A1A9;
+  color: #97A1A9;
+  border-radius: 10px;
+  opacity: 1;
+  font: normal normal normal 20px/24px Ubuntu;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+  .btned{
+    display:inline;
+      justify-content:right;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 250px ;
+      width: 102;
+      height: 45;
+      border: 1px solid #97A1A9;
+border-radius: 10px;
+opacity: 1
+  }
+
+     .btndel{
+      display:inline;
+      justify-content:right;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 345px ;
+      border: 1px solid #14AFF1;
+      border-radius: 10px;
+opacity: 1;
+      
+  }
+  .btnser{
+display:inline;
+      justify-content:right;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 440px ;
+      width:260px ;
+      height: 25px;
+
+font: normal normal normal 18px/21px Ubuntu;
+letter-spacing: 0px;
+color: #97A1A9;
+opacity: 1;
+background-color:#283A46 ;
+border: 1px solid #356680;
+border-radius:10px ;
+
+  }
+   .btnser2{
+display:inline;
+      justify-content:right;
+      position: absolute;
+      margin-top: 19px;
+      margin-left: 662px ;
+      width:32px ;
+      height: 26px;
+      background-color: #273D49CC;
+      border: 0px solid #356680;
+      color: #97A1A9;
+border-radius:10px ;
+opacity: 0.5;
+    }
+
+  table{
+    padding:65px 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    font: normal normal normal 20px/24px Ubuntu;
+
+
+}
+tr:nth-child(even) {
+    background-color: #283A46;
+  }
+.theading{
+       
+       top: 266px;
+left: 131px;
+width: 131px;
+height: 20px;
+text-align: left;
+font: normal normal normal 18px/21px Ubuntu;
+letter-spacing: 0px;
+color: #97A1A9;
+opacity: 1;
+border-spacing: collapse;
+}
+thead{
+  text-align: center;
+}
+
+
+.tble{
+   padding-top: 75px;
+   padding-left:30px ;
+
+}
+
+.tr{
+padding-top: 50px;
+padding-bottom: 40px;
+
+top: 310px;
+left: 132px;
+width: 128px;
+height: 10px;
+text-align: left;
+font: normal normal normal 20px/24px Ubuntu;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+border-spacing: collapse;
+
+
+}
+
+td{
+  color: #FFFFFF;
+  font: normal normal normal 20px/24px Ubuntu;
+    padding-bottom:13px ;
+	/*font: normal normal normal 18px/21px Ubuntu;*/
+}
+th{
+  text-align: center;
+}
+
+.delete-head-modal-bg
+    {position: fixed;
+        width: 100%;
+        height:100vh ;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.5) ;
+        visibility: hidden;
+        opacity: 0;
+        transition: visbility 0s, opacity 0.5s;
+             
+    } 
+
+  .bg-active
+  {
+    visibility: visible ;
+    opacity: 1;
+  }  
+  
+
+.modal{
+         position: relative;
+         padding-right: 0px;
+    background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+    width: 40%;
+    height: 40%;
+    border-radius: 6px;
+      
+      } 
+
+#delete-head
+      { padding-left: 40px;
+        font: normal normal normal 28px/32px Ubuntu;
+
+       color: white;
+       text-align: left;
+      }
+#delete-l1
+          {
+            padding-top:10px ;
+           margin-left:0px ;
+           padding-left: 65px;
+           padding-bottom: 10px;
+           top: 0px;
+           left: 0px;
+           width: 540px;
+           text-align: left;
+           font: normal normal normal 20px Ubuntu;
+         color: white;
+
+           margin-bottom: 0px;
+
+           
+          }     
+      
+
+
+
+#cancel
+       { 
+          margin-bottom: 100px;
+          margin-left: 330px;
+          color: white;
+          
+        
+       }
+
+#deldel
+       {  
+           color: white;
+           background: #14AFF1 0% 0% no-repeat padding-box;
+           margin-top:35px;
+           margin-left: 10px;
+       }        
+
+ .modal-close{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-weight: bold;
+    font: normal normal normal 18px/21px Ubuntu;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+ }        
+
+
+.add-head-modal-bg
+    {position: fixed;
+        width: 100%;
+        height:100vh ;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.5) ;
+        visibility: hidden;
+        opacity: 0;
+        transition: visbility 0s, opacity 0.5s;
+             
+    } 
+
+    .bg-active2
+  {
+    visibility: visible ;
+    opacity: 1;
+  }  
+
+.add-modal
+{
+   
+    
+    background: #2A3E4C;
+    width: 50%;
+    height:55%;
+    border-radius: 6px;
+    display: center;
+    justify-content: center;
+    flex-direction: center;
+    flex-direction: column;
+
+    
+
+
+}
+.modal-close2
+{
+       position:absolute;
+    top: 185px;
+    right: 425px;
+
+        
+    margin-left: 10;
+    font-weight: bold;
+    font: normal normal normal 18px/21px Ubuntu;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+}
+
+#addhead
+{
+    text-align: left;
+    padding-left:30px ;
+    padding-bottom: 10px;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+   color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.cust-name
+{
+    text-align: left;
+    margin-left: 20px;
+    font: normal normal normal 20px/24px Ubuntu;
+    margin-bottom:25px;
+    margin-top: 20px;
+    color: white;
+}
+
+.cust-no
+{
+    text-align: left;
+    margin-left: 20px;
+    font: normal normal normal 20px/24px Ubuntu;
+    margin-bottom:25px;
+    color: white;
+}
+
+
+.invoice-no
+{
+    text-align: left;
+    margin-left: 20px;
+    font: normal normal normal 20px/24px Ubuntu;
+    margin-bottom:25px;
+    color: white;
+}
+.invoice-amount
+{
+    text-align: left;
+    margin-left: 20px;
+    font: normal normal normal 20px/24px Ubuntu;
+    margin-bottom:20px;
+    color: white;
+}
+#input
+{
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+width: 200px;
+height: 25px;
+             
+        margin-left: 6.5px;
+        margin-top: -25px;
+        padding-left: 0px;
+        color: white;
+
+}
+
+#input2
+{
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+width: 200px;
+height: 25px;
+     margin-left: 23px;      
+     color: white; 
+
+}
+
+#input3
+{
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+width: 200px;
+height: 25px;
+     margin-left: 41px;      
+     color: white;  
+
+}
+
+#input4
+{
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+width: 200px;
+height: 25px;
+     margin-left: 8px;   
+     color: white;     
+
+}
+
+.due-date
+{
+    text-align: right;
+    margin-right:230px ;
+    font: normal normal normal 20px/24px Ubuntu;
+    margin-bottom:20px;
+    margin-top: -200px;
+    color: white;
+
+}
+.calen
+{
+    position: absolute;
+    top: 260px;
+    right: 180px;
+    background: #2A3E4C;
+    color: white;
+    display: flex;  
+    border-color:#2A3E4C ;
+    border-width:0px ;
+    justify-content: center;  
+    align-items: center; 
+    margin-right:230px ;
+    color: white; 
+    margin-bottom:-50px;
+    
+    
+}
+#input5
+{
+background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+width: 200px;
+height: 25px;
+color:white;
+cursor: pointer;;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-left:540px ;
+margin-top: -25px;
+padding-left: 0px; 
+}
+
+.notes
+{
+text-align: right;
+margin-right:270px ;
+font: normal normal normal 20px/24px Ubuntu;
+color: white;
+}
+
+#input6
+{
+background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+width: 200px;
+height: 130px;
+             display: flex;
+                flex-wrap: wrap;
+        justify-content: center;
+        margin-left:540px ;
+        margin-top: -25px;
+        padding-left: 0px; 
+        color: white; 
+
+}
+#border-add
+{
+    margin-top:50px;
+}
+#add-cancel
+{  text-align: left;
+font: normal normal normal 20px/24px Ubuntu;
+letter-spacing: 0px;
+color: #14AFF1;
+opacity: 1;
+border: none;
+background: #2A3E4C;
+margin-left: 10px;
+
+
+}
+
+#add-clear
+{  text-align: left;
+font: normal normal normal 20px/24px Ubuntu;
+letter-spacing: 0px;
+color: #14AFF1;
+opacity: 1;
+/*border: none;*/
+background: #2A3E4C;
+margin-left: 550px;
+background-color: #2A3E4C;
+margin-bottom: -110px;
+position: absolute;
+}
+
+.bottom-buttons{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin-top: 20px;
+}
+.btnadcan{
+    margin-right: 470px;
+}
+.btnadadclr
+{
+
+    margin-right:15px ;
+}
+.btnadad
+{   
+    margin-left: 5px;
+}
+
+.addcan
+{
+    background-color: #2A3E4C ;
+    font: normal normal normal 20px/24px Ubuntu;
+letter-spacing: 0px;
+border: none;
+color: #148FF1;
+}
+
+.addclr
+{
+    background-color: #2A3E4C ;
+    border: 1px solid #14AFF1;
+    font: normal normal normal 20px/24px Ubuntu;
+    color: white;
+border-radius: 10px;
+opacity: 1;
+}
+.addadd
+{
+  background-color: #14AFF1 ;
+    border: 1px solid #14AFF1;
+font: normal normal normal 20px/24px Ubuntu;
+color: white;
+border-radius: 10px;
+opacity: 1;
+}
+
+.edit-head-modal-bg
+    {position: fixed;
+        width: 100%;
+        height:100vh ;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.5) ;
+        visibility: hidden;
+        opacity: 0;
+        transition: visbility 0s, opacity 0.5s;
+             
+    } 
+
+    .bg-active3
+  {
+    visibility: visible ;
+    opacity: 1;
+  }  
+
+
+
+
+.edit-modal
+{
+   
+    
+    background: #2A3E4C;
+    width: 30%;
+    height:60%;
+    border-radius: 6px;
+    display: center;
+    justify-content: center;
+    flex-direction: center;
+    flex-direction: column;
+
+    
+
+
+}
+.modal-close3
+{
+       position:absolute;
+    top: 185px;
+    right: 425px;
+
+        
+    margin-left: 10;
+    font-weight: bold;
+    font: normal normal normal 18px/21px Ubuntu;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+}
+#edit-head
+{
+ text-align: left;
+ padding-left: 30px;
+ padding-bottom: 10px;
+ color:white;
+ text-align: left;
+font: normal normal normal 28px/32px Ubuntu;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+
+}
+.modal-close3
+{
+  position: absolute;
+  top:167px;
+  right:570px ;
+}
+#inv-amt-txt
+{
+  text-align: left;
+font: normal normal normal 20px/24px Ubuntu;
+letter-spacing: 0.19px;
+color: #97A1A9;
+opacity: 1;
+  padding-right: 20px;
+}
+.inside-edit
+{ 
+  margin-left: -430px;
+  margin-top: -200px;
+  
+  
+}
+#input-amount
+{
+  width: 250px; 
+  background-color: #283A46;
+  border-color: #356680;
+  border-radius: 10px;
+}
+#edit-notes
+{
+  
+  margin-left: -415px;
+  margin-bottom:0px ;
+}
+#input-notes
+{
+  padding-bottom: 120px;
+  padding-right:95px ;
+  background-color: #283A46;
+  border-radius: 10px;
+}
+#inv-notes
+{
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97A1A9;
+  opacity: 1;
+    padding-right: 105px;
+}
+#border-add2
+{
+  position: absolute;
+ left:539.5px;
+ top: 460px;
+ 
+
+}
+#border{
+  border:none none solid none;
+  border-width: 1px;
+
+}
+.edit-cancel
+{
+ position:absolute;
+ top:525px;
+ left:580px
+  
+}
+.edit-reset
+{
+  position: absolute;
+  top:525px;
+  left:800px
+}
+.edit-save
+{
+  position: absolute;
+  top:525px;
+  left:880px
+}
+.cancel-in-edit
+{background-color: #2A3E4C;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #14AFF1;
+  opacity: 1;
+  border:none;
+  cursor: pointer;
+}
+
+.reset-in-edit
+{background-color: #2A3E4C;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  border:1px solid #14AFF1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.save-in-edit
+{background-color: #14AFF1;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color:white;
+  opacity: 1;
+  border:1px solid #14AFF1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+body{
+    overflow: hidden;
+     background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+}
+
+.prev{
+  top: 250px;
+  left: 8px;
+  width: 35px;
+  height: 25px;
+  background: #39495E 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #00000069;
+  opacity: 1;
+  border-radius: 50%;
+  position: absolute;
+  cursor:pointer;
+}
+.next{
+  top: 250px;
+  right: 8px;
+  width: 35px;
+  height: 25px;
+  background: #39495E 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #00000069;
+  opacity: 1;
+  border-radius: 50%;
+  position: absolute;
+  cursor:pointer;
+}
+.prev:hover{
+  background-color:  #14AFF1;
+}
+.next:hover{
+  background-color:  #14AFF1;
+}
